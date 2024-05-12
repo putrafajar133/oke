@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <title>Carousel Template · Bootstrap v5.3</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        /* Custom styles for this template */
+        body {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        .carousel {
+            position: relative;
+        }
+
+        .carousel-caption {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            padding: 1.25rem;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .featurette-divider {
+            margin: 5rem 0;
+        }
+
+        .featurette-heading {
+            font-weight: 300;
+            line-height: 1;
+            letter-spacing: -0.05rem;
+        }
+
+        .lead {
+            font-size: 1.25rem;
+            font-weight: 300;
+        }
+
+        #row-572100190 {
+        /* Ubah URL gambar sesuai dengan lokasi dan nama file gambar Anda */
+        background-image: url('image/gambar10.jpg');
+        /* Atur properti lainnya sesuai kebutuhan */
+        background-size: cover; /* Menyesuaikan ukuran gambar dengan ukuran elemen */
+        background-position: center; /* Posisikan gambar di tengah elemen */
+        /* Atur warna teks dan padding sesuai kebutuhan */
+        color: #fff; /* Warna teks */
+        padding: 50px; /* Padding untuk jarak antara konten dan batas elemen */
+        text-align: center; /* Posisi teks di tengah */
+    }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="image/gambar11.png" width="150" height="100" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tentang.html">Tentang</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Produk.html">Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pesan.html">pesan</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+</header>
+
+<main>
+
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light"><b>PRODUK KAMI</b></h1>
+        <p class="lead text-body-secondary">Produk kami merupakan Kopi Terbaik Sumatera yang berasal dari berbagai daerah penghasil kopi di Sumatera. Tersedia Kopi Aceh Gayo, Kopi Lintong, Kopi Arabika Sidikalang, Robusta Sidikalang, Kopi Mandailing, dan juga Kopi dari Tanah Karo.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="image produk/gambar.jpg" alt="Gambar Produk" class="bd-placeholder-img card-img-top" width="100%" height="500">
+            <div class="card-body">
+              <p class="card-text">Kopi Arabika Sidikalang</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = 'pesan.html';"style="background-color:yellow">buy</button>
+                  <span class="woocommerce-Price-currencySymbol">Rp</span>
+                  "40.000"
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="image produk/gambar1.jpg" alt="Gambar Produk" class="bd-placeholder-img card-img-top" width="100%" height="500">
+            <div class="card-body">
+              <p class="card-text">Kopi Arabika Mandailing</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = 'pesan.html';"style="background-color:yellow">buy</button>
+                  <span class="woocommerce-Price-currencySymbol">Rp</span>
+                  "40.000"
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="image produk/gambar2.png" alt="Gambar Produk" class="bd-placeholder-img card-img-top" width="100%" height="500">
+            <div class="card-body">
+              <p class="card-text">Kopi Susu Blend Arabika Robusta</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = 'pesan.html';"style="background-color:yellow">buy</button>
+                  <span class="woocommerce-Price-currencySymbol">Rp</span>
+                  "50.000"
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="image produk/gambar3.jpg" alt="Gambar Produk" class="bd-placeholder-img card-img-top" width="100%" height="500">
+            <div class="card-body">
+              <p class="card-text">Kopi Arabika Lintong</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = 'pesan.html';"style="background-color:yellow">buy</button>
+                  <span class="woocommerce-Price-currencySymbol">Rp</span>
+                  "40.000"
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="image produk/gambar4.jpg" alt="Gambar Produk" class="bd-placeholder-img card-img-top" width="100%" height="500">
+            <div class="card-body">
+              <p class="card-text">
+                Kopi Arabika Aceh Gayo</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = 'pesan.html';"style="background-color:yellow">buy</button>
+                  <span class="woocommerce-Price-currencySymbol">Rp</span>
+                  "40.000"
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="image produk/gambar5.jpg" alt="Gambar Produk" class="bd-placeholder-img card-img-top" width="100%" height="500">
+            <div class="card-body">
+              <p class="card-text">Kopi Arabika Karo</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = 'pesan.html';"style="background-color:yellow">buy</button>
+                  <span class="woocommerce-Price-currencySymbol">Rp</span>
+                  "40.000"
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="album py-3 bg-body-tertiary">
+          <div class="row row-cols-1 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="image produk/gambar6.png" alt="Gambar Produk" class="bd-placeholder-img card-img-top" width="100%" height="500">
+                <div class="card-body">
+                  <p class="card-text">Kopi Fine Robusta Mandailing</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = 'pesan.html';"style="background-color:yellow">buy</button>
+                      <span class="woocommerce-Price-currencySymbol">Rp</span>
+                      "45.000"
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="album py-3 bg-body-tertiary">
+          <div class="row row-cols-1 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="image produk/gambar7.png" alt="Gambar Produk" class="bd-placeholder-img card-img-top" width="100%" height="500">
+                <div class="card-body">
+                  <p class="card-text">Kopi Fine Robusta Sidikalang</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href = 'pesan.html';"style="background-color:yellow">buy</button>
+                      <span class="woocommerce-Price-currencySymbol">Rp</span>
+                      "70.000"
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add another col-md-4 for the third product -->
+    </div>
+  </div>
+  
+  
+  
+
+
+
+            
+          
+        
+
+</main>
+<div class="row align-center" id="row-572100190">
+    <div id="col-1220147541" class="col medium-8 small-12 large-8">
+        <div class="col-inner text-center">
+            <h2>Tetap terhubung dengan kami</h2>
+            <a href="https://wa.me/6285709945685" target="_blank" class="btn btn-success">Chat via WhatsApp</a>
+        </div>
+    </div>
+</div>
+</div>
+
+<section class="section dark" id="section_1711515262">
+    <div class="bg section-bg fill bg-fill bg-loaded">
+    </div>
+    <div class="section-content relative">
+        <p class="uppercase" style="color:#fff; font-size:80%; letter-spacing:0.1em; margin: 17px 0 7px; text-align:center;"><b>Temukan kami<b> :</p>
+        <div class="row row-collapse align-middle align-center text-center" id="row-1802642117">
+            <div id="col-413167364" class="col medium-2 small-5 large-2">
+                <div class="col-inner">
+                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1191879747">
+                        <a class="" href="https://www.tokopedia.com/sumatra-coffee" target="_blank" rel="nofollow noopener noreferrer"> 
+                            <div class="img-inner dark">
+                                <img width="320" height="128" src="https://www.sumatra.coffee/wp-content/uploads/2021/04/Tokopedia-1.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.sumatra.coffee/wp-content/uploads/2021/04/Tokopedia-1.png 320w, https://www.sumatra.coffee/wp-content/uploads/2021/04/Tokopedia-1-247x99.png 247w, https://www.sumatra.coffee/wp-content/uploads/2021/04/Tokopedia-1-300x120.png 300w" sizes="(max-width: 320px) 100vw, 320px">
+                            </div>
+                        </a>
+                        <style>
+                            #image_1191879747 {
+                                width: 72%;
+                                margin: auto;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+            <div id="col-734982413" class="col medium-2 small-5 large-2">
+                <div class="col-inner">
+                    <div class="img has-hover x md-x lg-x y md-y lg-y" id="image_1289248775">
+                        <a class="" href="https://shopee.co.id/sumatra.coffee" target="_blank" rel="nofollow noopener noreferrer"> 
+                            <div class="img-inner dark">
+                                <img width="320" height="128" src="https://www.sumatra.coffee/wp-content/uploads/2021/04/Shopee-1.png" class="attachment-large size-large" alt="" loading="lazy" srcset="https://www.sumatra.coffee/wp-content/uploads/2021/04/Shopee-1.png 320w, https://www.sumatra.coffee/wp-content/uploads/2021/04/Shopee-1-247x99.png 247w, https://www.sumatra.coffee/wp-content/uploads/2021/04/Shopee-1-300x120.png 300w" sizes="(max-width: 320px) 100vw, 320px">
+                            </div>
+                        </a>
+                        <style>
+                            #image_1289248775 {
+                                width: 72%;
+                                margin: auto;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style>
+        #section_1711515262 {
+            padding-top: 0px;
+            padding-bottom: 0px;
+            background-color: #090a0a;
+        }
+    </style>
+</section>
+
+  <!-- Footer -->
+  <footer class="container">
+      <p>&copy; Copyright 2024 © andres junika putra. All rights reserved &middot;</p>
+  </footer>
+  <!-- End Footer -->
+
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
